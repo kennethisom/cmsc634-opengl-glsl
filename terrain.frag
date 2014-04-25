@@ -93,7 +93,7 @@ void main() {
 	vec3 N = normalize(normal);
 	vec3 world_normal = normalize(N * mat3(viewMatrix));
 	
-	float time_cycle = mod(time, 300) / 150;
+	float time_cycle = mod(time, 150) / 75;
 	float time_variance = (cos(time_cycle * M_PI) + 1) / 2;
 	
 	//Set Sand Color as Default

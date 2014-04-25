@@ -12,7 +12,7 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 
-#include <time.h>
+#include <math.h>
 #include <stdio.h>
 
 ///////
@@ -147,13 +147,11 @@ int main(int argc, char *argv[])
         appctx.input->keyUpdate(&appctx);
 
 		// get current time;
-		//long int t = static_cast<long int>( time(NULL) );
-		long int t = static_cast<long int>( clock() );
-		int tpart = (t / (CLOCKS_PER_SEC / 4)) % 10000;
+		double t = glfwGetTime() * 4;
+		int tpart = floor(t);
 		if (appctx.scene->sdata.time != tpart) {
 			appctx.scene->sdata.time = tpart;
 			appctx.input->redraw = true;
-			printf("%d\n", tpart);
 		}
 
         if (appctx.input->redraw) {
