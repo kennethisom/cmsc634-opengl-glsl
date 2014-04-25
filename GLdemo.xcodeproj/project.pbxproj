@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091C344B18958C440034E1E1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091C344A18958C440034E1E1 /* Cocoa.framework */; };
+		091C344D18958C5A0034E1E1 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091C344C18958C5A0034E1E1 /* IOKit.framework */; };
+		091C344F18958C6B0034E1E1 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091C344E18958C6B0034E1E1 /* CoreFoundation.framework */; };
+		091C345118958C7C0034E1E1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091C345018958C7C0034E1E1 /* CoreVideo.framework */; };
+		096AD38E1897E7E6004272B2 /* MatPair.inl in Resources */ = {isa = PBXBuildFile; fileRef = 096AD38D1897E7E6004272B2 /* MatPair.inl */; };
+		09A20FD718BD4DDC00A5DBD1 /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09A20FD518BD4DDC00A5DBD1 /* Scene.cpp */; };
+		09A20FD918BD4E0400A5DBD1 /* pebbles.ppm in Resources */ = {isa = PBXBuildFile; fileRef = 09A20FD818BD4E0400A5DBD1 /* pebbles.ppm */; };
+		09A30B2B143A75F2000B8EBF /* ImagePPM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09A30B21143A75F2000B8EBF /* ImagePPM.cpp */; };
+		09A30B2C143A75F2000B8EBF /* Input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09A30B23143A75F2000B8EBF /* Input.cpp */; };
+		09A30B2D143A75F2000B8EBF /* Terrain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09A30B25143A75F2000B8EBF /* Terrain.cpp */; };
+		09A30B34143A7621000B8EBF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A30B33143A7621000B8EBF /* OpenGL.framework */; };
+		09C1FFFE189499FF0089AA85 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09C1FFFC189499FF0089AA85 /* Shader.cpp */; };
+		09E24A3618BF8FA400C3B0AA /* Marker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09E24A3318BF8FA400C3B0AA /* Marker.cpp */; };
+		09E24A3718BF8FA400C3B0AA /* Mat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09E24A3418BF8FA400C3B0AA /* Mat.cpp */; };
+		09E24A3818BF8FA400C3B0AA /* MatPair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09E24A3518BF8FA400C3B0AA /* MatPair.cpp */; };
+		09E24A3E18BF8FBD00C3B0AA /* marker.frag in Sources */ = {isa = PBXBuildFile; fileRef = 09E24A3918BF8FBD00C3B0AA /* marker.frag */; };
+		09E24A3F18BF8FBD00C3B0AA /* marker.vert in Sources */ = {isa = PBXBuildFile; fileRef = 09E24A3A18BF8FBD00C3B0AA /* marker.vert */; };
+		09E24A4018BF8FBD00C3B0AA /* pebbles-bump.ppm in Resources */ = {isa = PBXBuildFile; fileRef = 09E24A3B18BF8FBD00C3B0AA /* pebbles-bump.ppm */; };
+		09E24A4118BF8FBD00C3B0AA /* pebbles-gloss.ppm in Resources */ = {isa = PBXBuildFile; fileRef = 09E24A3C18BF8FBD00C3B0AA /* pebbles-gloss.ppm */; };
+		09E24A4218BF8FBD00C3B0AA /* pebbles-norm.ppm in Resources */ = {isa = PBXBuildFile; fileRef = 09E24A3D18BF8FBD00C3B0AA /* pebbles-norm.ppm */; };
+		09F4822518875C250035D7C0 /* GLdemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09F4822418875C250035D7C0 /* GLdemo.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		091C344A18958C440034E1E1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = ../../../../../System/Library/Frameworks/Cocoa.framework; sourceTree = "<group>"; };
+		091C344C18958C5A0034E1E1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = ../../../../../System/Library/Frameworks/IOKit.framework; sourceTree = "<group>"; };
+		091C344E18958C6B0034E1E1 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = ../../../../../System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<group>"; };
+		091C345018958C7C0034E1E1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = ../../../../../System/Library/Frameworks/CoreVideo.framework; sourceTree = "<group>"; };
+		096AD38C1897E7E6004272B2 /* MatPair.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MatPair.hpp; sourceTree = "<group>"; };
+		096AD38D1897E7E6004272B2 /* MatPair.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MatPair.inl; sourceTree = "<group>"; };
+		09A20FD518BD4DDC00A5DBD1 /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene.cpp; sourceTree = "<group>"; };
+		09A20FD618BD4DDC00A5DBD1 /* Scene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Scene.hpp; sourceTree = "<group>"; };
+		09A20FD818BD4E0400A5DBD1 /* pebbles.ppm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pebbles.ppm; sourceTree = "<group>"; };
+		09A30B21143A75F2000B8EBF /* ImagePPM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImagePPM.cpp; sourceTree = "<group>"; };
+		09A30B22143A75F2000B8EBF /* ImagePPM.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ImagePPM.hpp; sourceTree = "<group>"; };
+		09A30B23143A75F2000B8EBF /* Input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Input.cpp; sourceTree = "<group>"; };
+		09A30B24143A75F2000B8EBF /* Input.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Input.hpp; sourceTree = "<group>"; };
+		09A30B25143A75F2000B8EBF /* Terrain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Terrain.cpp; sourceTree = "<group>"; };
+		09A30B26143A75F2000B8EBF /* Terrain.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Terrain.hpp; sourceTree = "<group>"; };
+		09A30B27143A75F2000B8EBF /* Vec.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vec.hpp; sourceTree = "<group>"; };
+		09A30B30143A75FB000B8EBF /* about.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = about.txt; sourceTree = "<group>"; };
+		09A30B33143A7621000B8EBF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		09A30B3C143A763B000B8EBF /* terrain.ppm */ = {isa = PBXFileReference; lastKnownFileType = text; path = terrain.ppm; sourceTree = "<group>"; };
+		09A69E83188435A40090F6E7 /* Vec.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = Vec.inl; sourceTree = "<group>"; };
+		09A69E84188435B50090F6E7 /* Mat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mat.hpp; sourceTree = "<group>"; };
+		09A69E85188435B50090F6E7 /* Mat.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = Mat.inl; sourceTree = "<group>"; };
+		09C1FFF8189494BF0089AA85 /* terrain.frag */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = terrain.frag; sourceTree = "<group>"; };
+		09C1FFF9189494BF0089AA85 /* terrain.vert */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = terrain.vert; sourceTree = "<group>"; };
+		09C1FFFC189499FF0089AA85 /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		09C1FFFD189499FF0089AA85 /* Shader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
+		09E24A3218BF8FA400C3B0AA /* Marker.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Marker.hpp; sourceTree = "<group>"; };
+		09E24A3318BF8FA400C3B0AA /* Marker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Marker.cpp; sourceTree = "<group>"; };
+		09E24A3418BF8FA400C3B0AA /* Mat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mat.cpp; sourceTree = "<group>"; };
+		09E24A3518BF8FA400C3B0AA /* MatPair.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MatPair.cpp; sourceTree = "<group>"; };
+		09E24A3918BF8FBD00C3B0AA /* marker.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = marker.frag; sourceTree = "<group>"; };
+		09E24A3A18BF8FBD00C3B0AA /* marker.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = marker.vert; sourceTree = "<group>"; };
+		09E24A3B18BF8FBD00C3B0AA /* pebbles-bump.ppm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pebbles-bump.ppm"; sourceTree = "<group>"; };
+		09E24A3C18BF8FBD00C3B0AA /* pebbles-gloss.ppm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pebbles-gloss.ppm"; sourceTree = "<group>"; };
+		09E24A3D18BF8FBD00C3B0AA /* pebbles-norm.ppm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "pebbles-norm.ppm"; sourceTree = "<group>"; };
+		09F4822418875C250035D7C0 /* GLdemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLdemo.cpp; sourceTree = "<group>"; };
+		09FD073A18995B4100F318E7 /* AppContext.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AppContext.hpp; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* GLdemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GLdemo; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091C344F18958C6B0034E1E1 /* CoreFoundation.framework in Frameworks */,
+				091C344B18958C440034E1E1 /* Cocoa.framework in Frameworks */,
+				09A30B34143A7621000B8EBF /* OpenGL.framework in Frameworks */,
+				091C344D18958C5A0034E1E1 /* IOKit.framework in Frameworks */,
+				091C345118958C7C0034E1E1 /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* GLdemo */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				09A30B31143A7603000B8EBF /* Frameworks */,
+				09A30B32143A760E000B8EBF /* Resources */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = GLdemo;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				09E24A3218BF8FA400C3B0AA /* Marker.hpp */,
+				09E24A3318BF8FA400C3B0AA /* Marker.cpp */,
+				09E24A3418BF8FA400C3B0AA /* Mat.cpp */,
+				09E24A3518BF8FA400C3B0AA /* MatPair.cpp */,
+				09A20FD518BD4DDC00A5DBD1 /* Scene.cpp */,
+				09A20FD618BD4DDC00A5DBD1 /* Scene.hpp */,
+				09FD073A18995B4100F318E7 /* AppContext.hpp */,
+				09F4822418875C250035D7C0 /* GLdemo.cpp */,
+				09A30B27143A75F2000B8EBF /* Vec.hpp */,
+				09A69E83188435A40090F6E7 /* Vec.inl */,
+				09A69E84188435B50090F6E7 /* Mat.hpp */,
+				09A69E85188435B50090F6E7 /* Mat.inl */,
+				096AD38C1897E7E6004272B2 /* MatPair.hpp */,
+				096AD38D1897E7E6004272B2 /* MatPair.inl */,
+				09A30B21143A75F2000B8EBF /* ImagePPM.cpp */,
+				09A30B22143A75F2000B8EBF /* ImagePPM.hpp */,
+				09A30B23143A75F2000B8EBF /* Input.cpp */,
+				09A30B24143A75F2000B8EBF /* Input.hpp */,
+				09C1FFFD189499FF0089AA85 /* Shader.hpp */,
+				09C1FFFC189499FF0089AA85 /* Shader.cpp */,
+				09A30B25143A75F2000B8EBF /* Terrain.cpp */,
+				09A30B26143A75F2000B8EBF /* Terrain.hpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		09A30B31143A7603000B8EBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				091C345018958C7C0034E1E1 /* CoreVideo.framework */,
+				091C344E18958C6B0034E1E1 /* CoreFoundation.framework */,
+				091C344C18958C5A0034E1E1 /* IOKit.framework */,
+				091C344A18958C440034E1E1 /* Cocoa.framework */,
+				09A30B33143A7621000B8EBF /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09A30B32143A760E000B8EBF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				09E24A3918BF8FBD00C3B0AA /* marker.frag */,
+				09E24A3A18BF8FBD00C3B0AA /* marker.vert */,
+				09E24A3B18BF8FBD00C3B0AA /* pebbles-bump.ppm */,
+				09E24A3C18BF8FBD00C3B0AA /* pebbles-gloss.ppm */,
+				09E24A3D18BF8FBD00C3B0AA /* pebbles-norm.ppm */,
+				09A20FD818BD4E0400A5DBD1 /* pebbles.ppm */,
+				09C1FFF8189494BF0089AA85 /* terrain.frag */,
+				09C1FFF9189494BF0089AA85 /* terrain.vert */,
+				09A30B3C143A763B000B8EBF /* terrain.ppm */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* GLdemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				09A30B30143A75FB000B8EBF /* about.txt */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* GLdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "GLdemo" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				09A69E86188438A50090F6E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLdemo;
+			productInstallPath = "$(HOME)/bin";
+			productName = GLdemo;
+			productReference = 8DD76F6C0486A84900D96B5E /* GLdemo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "GLdemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* GLdemo */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* GLdemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09A69E86188438A50090F6E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E24A4018BF8FBD00C3B0AA /* pebbles-bump.ppm in Resources */,
+				09E24A4218BF8FBD00C3B0AA /* pebbles-norm.ppm in Resources */,
+				096AD38E1897E7E6004272B2 /* MatPair.inl in Resources */,
+				09E24A4118BF8FBD00C3B0AA /* pebbles-gloss.ppm in Resources */,
+				09A20FD918BD4E0400A5DBD1 /* pebbles.ppm in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E24A3618BF8FA400C3B0AA /* Marker.cpp in Sources */,
+				09A20FD718BD4DDC00A5DBD1 /* Scene.cpp in Sources */,
+				09E24A3818BF8FA400C3B0AA /* MatPair.cpp in Sources */,
+				09E24A3F18BF8FBD00C3B0AA /* marker.vert in Sources */,
+				09E24A3718BF8FA400C3B0AA /* Mat.cpp in Sources */,
+				09F4822518875C250035D7C0 /* GLdemo.cpp in Sources */,
+				09E24A3E18BF8FBD00C3B0AA /* marker.frag in Sources */,
+				09A30B2B143A75F2000B8EBF /* ImagePPM.cpp in Sources */,
+				09C1FFFE189499FF0089AA85 /* Shader.cpp in Sources */,
+				09A30B2C143A75F2000B8EBF /* Input.cpp in Sources */,
+				09A30B2D143A75F2000B8EBF /* Terrain.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lGLEW",
+					"-lglfw3",
+				);
+				PRODUCT_NAME = GLdemo;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lGLEW",
+					"-lglfw3",
+				);
+				PRODUCT_NAME = GLdemo;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "GLdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "GLdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

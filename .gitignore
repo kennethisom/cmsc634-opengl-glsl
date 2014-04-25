@@ -1,0 +1,43 @@
+# files that should not be checked in
+
+# backup files
+*~
+*.orig
+.#*
+
+# mac files
+.DS_Store
+*.dSYM
+*.orig
+
+# unix files
+*.o
+GLdemo
+
+# windows build files
+*.user
+*.suo
+*.sdf
+*.sdf
+*.opensdf
+*.pdb
+*.exe
+obj
+bin
+Debug
+Release
+x64
+ipch
+
+GLdemo.vcxproj.user
+GLdemo.v11.suo
+GLdemo.suo
+GLdemo.sdf
+x64
+x64/*
+Release
+Release/*
+ipch
+ipch/*
+Debug
+Debug/*

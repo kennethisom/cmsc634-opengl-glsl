@@ -1,0 +1,45 @@
+OpenGL and GLUT demo, with a distant anscestry from the
+GeneratedGeometry XNA demo from creators.xna.com. By now, really the only
+similarity is that you're orbiting around a terrain defined from a file
+
+In general, there is one .hpp file per class, with the same name as
+the class. Implementation functions for the class are either in the
+corresponding .cpp file, or for inline functions in the corresponding
+.inl file.
+
+Uses the GLFW cross-platform windowing library to handle creating
+windows and mouse/keyboard interaction. Uses the GLEW (OpenGL
+Extension Wrangler) library to get access to OpenGL functions.
+
+Source code summary:
+
+GLdemo.cpp has the initialization and startup code, as well as the
+main drawing function, which calls draw from Terrain.cxx
+
+AppContext.hpp contains application data needed inside GLFW callback
+functions
+
+Scene.hpp/Scene.cpp handles scene-wide state, including window and
+view changes.
+
+Input.hpp/Input.cpp handles mouse motion and keyboard input. Both
+orbit the view around the center of the scene.
+
+Shader.hpp/Shader.cpp contains functions for loading shaders (i.e.
+.vert and .frag files)
+
+ImagePPM.hpp/ImagePPM.cpp is simple ppm image reader/writer
+
+Vec.hpp/Vec.inl is a vector class, templated over type and size
+
+Mat.hpp/Mat.inl/Mat.cpp is a square matrix class, templated over type
+and size
+
+MatPair.hpp/MatPair.inl/MatPair.cpp contains two square matrices: the
+matrix and its inverse. These are handy for view and transformation
+matrices where you need both, and it is easier to update them both as
+you go than compute the inverse on demand.
+
+Terrain.hpp/Terrain.cpp creates and draws the terrain geometry.
+
+Marker.hpp/Marker.cpp creates and draws a marker
